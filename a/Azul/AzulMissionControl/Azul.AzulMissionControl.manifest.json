@@ -1,0 +1,36 @@
+{
+    "packageIdentifier" : "Azul.AzulMissionControl",
+    "packageVersion" : "8.1.0.42",
+    "packageName" : "Latest GA release for Azul Mission Control",
+    "packageShortDescription" : "Azul Mission Control 8.1",
+    "packageLicense" : "UPL-1.0",
+    "packageLicenseUrl" : "https://www.azul.com/products/components/zulu-mission-control/",
+    "tags" : [ "azul", "amc", "missioncontrol", "azulmissioncontrol" ],
+    "installers" : [ {
+      "architecture" : "X86_64",
+      "operatingSystem" : "WINDOWS",
+      "packageUrl" : "https://cdn.azul.com/zmc/bin/zmc8.1.0.42-ca-win_x64.zip",
+      "packageSHA256" : "a430e6b797c805d4e0e40bd66fbff79ff77d3de4b5394a75c6596c09abcb7143",
+      "packageArchiveType" : "zip",
+      "extractPath" : "zmc8.1.0.42-ca-win_x64/Azul Mission Control",
+      "envInjectPath" : "$"
+    },
+    {
+      "architecture" : "X86_64",
+      "operatingSystem" : "LINUX",
+      "packageUrl" : "https://cdn.azul.com/zmc/bin/zmc8.1.0.42-ca-linux_x64.tar.gz",
+      "packageSHA256" : "75fef6cb5765bdff93396395010243d504ee6055bc7f8c635ccce504cad30408",
+      "packageArchiveType" : "tar.gz",
+      "extractPath" : "zmc8.1.0.42-ca-linux_x64/Azul Mission Control",
+      "envInjectPath" : "$"
+    },
+    {
+      "architecture" : "X86_64",
+      "operatingSystem" : "MACOS",
+      "packageUrl" : "https://cdn.azul.com/zmc/bin/zmc8.1.0.42-ca-macos_x64.tar.gz",
+      "packageSHA256" : "2ec100e47eb71e4b29a8a42d6d99521374bf00a83312cc965f037930f83cdee7",
+      "packageArchiveType" : "tar.gz",
+      "extractPath" : "zmc8.1.0.42-ca-macos_x64/Azul Mission Control",
+      "envInjectPath" : "$"
+    } ]
+  }

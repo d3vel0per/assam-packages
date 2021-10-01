@@ -1,0 +1,46 @@
+{
+  "packageIdentifier" : "EclipseAdoptium.Temurin17",
+  "packageVersion" : "17.0.0+35",
+  "packageName" : "Eclipse Temurin JDK 17",
+  "packageShortDescription" : "Eclipse Temurin JDK 17+35 with Hotspot",
+  "packageLicense" : "GPL 2 with Classpath Exception",
+  "packageLicenseUrl" : "https://adoptium.net/about.html",
+  "altKey" : "jdk",
+  "tags" : [ "jdk", "openjdk", "temurin" ],
+  "installers" : [ {
+    "architecture" : "X86_64",
+    "operatingSystem" : "WINDOWS",
+    "packageUrl" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17+35/OpenJDK17-jdk_x64_windows_hotspot_17_35.zip",
+    "packageSHA256" : "79e1c949f8301eb0a5979bc245829a4419507d7f6ac567c870e5986daf48c1db",
+    "packageArchiveType" : "zip",
+    "extractPath" : "jdk-17+35",
+    "envInjectPath" : "bin",
+    "envSet" : {
+      "JAVA_HOME" : "$"
+    }
+  },
+  {
+    "architecture" : "X86_64",
+    "operatingSystem" : "LINUX",
+    "packageUrl" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz",
+    "packageSHA256" : "6f1335d9a7855159f982dac557420397be9aa85f3f7bc84e111d25871c02c0c7",
+    "packageArchiveType" : "tar.gz",
+    "extractPath" : "jdk-11.0.12+7",
+    "envInjectPath" : "bin",
+    "envSet" : {
+      "JAVA_HOME" : "$"
+    }
+  },
+  {
+    "architecture" : "X86_64",
+    "operatingSystem" : "MACOS",
+    "packageUrl" : "https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17%2B35/OpenJDK17-jdk_x64_mac_hotspot_17_35.tar.gz",
+    "packageSHA256" : "e9de8b1b62780fe99270a5b30f0645d7a91eded60438bcf836a05fa7b93c182f",
+    "packageArchiveType" : "tar.gz",
+    "extractPath" : "jdk-11.0.12+7",
+    "envInjectPath" : "bin",
+    "envSet" : {
+      "JAVA_HOME" : "$"
+    }
+  } ]
+}
